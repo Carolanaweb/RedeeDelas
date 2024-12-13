@@ -1,0 +1,1677 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Catilde;
+    src: url(./Fonte/Catilde\ reguler.otf);
+}
+
+body {
+    background-color: #ffebe0;
+}
+
+
+/* Navegador */
+
+nav {
+    background-color: #c084fcab;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    z-index: 100;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+
+nav ul li a {
+    color: antiquewhite;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: "League Spartan", sans-serif;
+    transition: color 0.3s ease;
+    transition: font-size 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #834ab2;
+    font-size: 32px;
+}
+
+#logo {
+    background-image: url(./icones/Logo__2_-removebg-preview.png);
+    height: 92px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 160px;
+    margin-top: -20px;
+    margin-left: -20px;
+}
+
+/* Botão Modo Escuro */
+
+.modoescuro img {
+    height: 80px;
+    padding-bottom: 22px;
+    transition: height 0.3s ease;
+}
+
+
+.modoescuro {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin-left: -80px;
+}
+
+.modoescuro img:hover {
+    height: 90px;
+}
+
+/* Home */
+
+#home {
+    background-color: #ffebe0;
+    background-image: url(./fundos/inicio-site.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    font-size: 40px;
+    font-family: "League Spartan", sans-serif;
+    height: 100vh;
+}
+
+/* Textos */
+
+#home h1 {
+    font-size: 3em;
+    font-family: Catilde;
+    color: #9c65cf;
+    text-align: left;
+    padding-top: 270px;
+    margin-left: 190px
+}
+
+#home p {
+    text-align: center;
+    width: 70%;
+    font-size: 1em;
+    font-family: "League Spartan", sans-serif;
+}
+
+h1::selection {
+    color: #45186f;
+    background-color: #c189f5b5;
+}
+
+h2::selection {
+    color: #45186f;
+    background-color: #c189f5b5;
+}
+
+h3::selection {
+    color: #45186f;
+    background-color: #c189f5b5;
+}
+
+p::selection {
+    color: #45186f;
+    background-color: #c189f5b5;
+}
+
+.center p {
+    color: #ffebe0;
+}
+
+/* -----------------Parte 2-------------------- */
+.imagem {
+    position: absolute;
+    width: 22%;
+    margin-left: 49%;
+    margin-top: -15.3%;
+}
+
+#sectionS2 {
+    background-image: url(./fundos/Sobre\ Fundo.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#sectionS2 h3 {
+    font-family: Catilde;
+    font-size: 3.5em;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    margin-left: 30px;
+    color: #9c65cf;
+
+}
+
+.intro p {
+    font-size: 17px;
+    font-family: "League Spartan", sans-serif;
+    font-weight: 600;
+}
+
+.missão p {
+    font-size: 16.3px;
+    font-family: "League Spartan", sans-serif;
+    font-weight: 600;
+}
+
+.visão p {
+    font-size: 16.9px;
+    font-family: "League Spartan", sans-serif;
+    font-weight: 600;
+}
+
+.valores p {
+    font-size: 16px;
+    font-family: "League Spartan", sans-serif;
+    font-weight: 600;
+}
+
+#sectionS2 h2 {
+    font-size: 2em;
+    margin-top: -7%;
+}
+
+.intro {
+    background-color: #88ab88;
+    padding: 5px;
+    border-radius: 20px;
+    margin: 30px;
+    justify-content: center;
+    align-items: center;
+    width: 700px;
+    height: 118px;
+    text-align: center;
+    box-shadow: 0 9px 20px rgba(65, 17, 75, 0.685);
+    color: #333;
+}
+
+#misaoo {
+    display: flex;
+}
+
+.missão h2,
+.visão h2,
+.valores h2 {
+    color: #9c65cf;
+    text-align: center;
+    font-size: 2em;
+    font-family: "League Spartan", sans-serif;
+    padding-top: 20px;
+}
+
+.missão {
+    font-family: "League Spartan", sans-serif;
+    background-color: #88ab88;
+    margin: 50px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 9px 20px rgb(150, 131, 106);
+    width: 820px;
+    height: 410px;
+    text-align: center;
+    padding: 15px;
+    color: #333;
+}
+
+.visão {
+    font-family: "League Spartan", sans-serif;
+    background-color: #88ab88;
+    margin: 50px;
+    border-radius: 10px;
+    font-size: 18px;
+    text-align: center;
+    box-shadow: 0 9px 20px rgb(150, 131, 106);
+    width: 820px;
+    height: 410px;
+    text-align: center;
+    padding: 20px;
+    color: #333;
+}
+
+.valores {
+    font-family: "League Spartan", sans-serif;
+    background-color: #88ab88;
+    margin: 50px;
+    margin-top: 50px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 9px 20px #96836a;
+    width: 820px;
+    height: 410px;
+    text-align: center;
+    padding: 20px;
+    color: #333;
+}
+
+.missão:hover {
+    transform: scale(1.1);
+    transition: transform 0.5s ease-in-out;
+}
+
+.visão:hover {
+    transform: scale(1.1);
+    transition: transform 0.5s ease-in-out;
+}
+
+.valores:hover {
+    transform: scale(1.1);
+    transition: transform 0.5s ease-in-out;
+}
+
+/* -------------Parte 3------------- */
+
+#tres {
+    background-image: url(./fundos/Dados\ Fundo.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 750px;
+}
+
+#tres .secao .caixa .contador-item {
+    background-color: #88ab88;
+    justify-content: center;
+    width: 400px;
+    height: 330px;
+    text-align: center;
+    border-radius: 40px;
+    margin-right: 60px;
+}
+
+#tres .secao .caixa .contador-iitem {
+    background-color: #c3e2c2;
+    justify-content: center;
+    width: 400px;
+    height: 330px;
+    text-align: center;
+    margin-left: 30px;
+    border-radius: 40px;
+}
+
+.contador {
+    font-size: 6em;
+    color: #000000;
+    margin-top: 80px;
+}
+
+.contador-item p,
+.contador-iitem p {
+    color: #000000;
+    font-size: 30px;
+    font-family: "League Spartan", sans-serif;
+}
+
+#tres h2 {
+    font-size: 5em;
+    text-align: center;
+    font-family: Catilde;
+    color: #9c65cf;
+}
+
+#tres .secao {
+    height: 500px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+#tres .secao h3 {
+    font-size: 3em;
+    text-align: center;
+    font-family: "League Spartan", sans-serif;
+}
+
+#tres .secao .caixa {
+    width: 90%;
+    display: flex;
+    margin-left: 10px;
+    height: 100%;
+    margin-top: 5%;
+    text-align: center;
+}
+
+#tres .secao .caixa div h3 {
+    color: #000000;
+    font-size: 7em;
+    text-align: center;
+    font-family: fonte;
+}
+
+p::selection {
+    color: #45186f;
+    background-color: #c189f5b5;
+}
+
+/* -----------------Relatos (Parte 4)------------------ */
+
+#mulheres {
+    background-image: url(./fundos/Relatos\ Fundo.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    text-align: center;
+    justify-content: center;
+    height: 1200px;
+    margin: 0;
+}
+
+#mulheres img {
+    border-radius: 100%;
+}
+
+#mulheres h2 {
+    color: #9c65cf;
+    font-family: Catilde;
+    font-size: 5em;
+
+    width: 100%;
+}
+
+#mulheres .container-mulheres {
+    display: flex;
+    width: 100%;
+}
+
+.isadora {
+    background-color: #88ab88;
+    border-radius: 20px;
+    margin: 40px;
+    padding: auto 70px;
+    height: 440px;
+    width: 20%;
+    margin-top: 10%;
+}
+
+.isadora img {
+    width: 40%;
+}
+
+.isadora p {
+    font-family: "League Spartan", sans-serif;
+    font-weight: 550;
+    margin-top: 10px;
+    margin-bottom: 15%;
+    font-size: 1em;
+    width: 85%;
+    margin-left: 8%;
+}
+
+.isadora:hover {
+    transform: scale(1.1);
+    transition: transform 0.5s ease-in-out;
+}
+
+.isadora h4 {
+    font-size: 0.9em;
+    font-weight: 750;
+    margin-top: -9%;
+    font-family: "League Spartan", sans-serif;
+}
+
+.luiza {
+    background-color: #88ab88;
+    border-radius: 20px;
+    margin: 40px;
+    padding: auto 70px;
+    margin: 30px auto;
+    height: 440px;
+    width: 20%;
+    margin-top: 10%;
+}
+
+.luiza img {
+    width: 40%;
+}
+
+.luiza p {
+    font-family: "League Spartan", sans-serif;
+    font-weight: 600;
+    font-size: 0.8em;
+    width: 260px;
+    margin-left: 1.5%;
+    margin-top: -1%;
+}
+
+.luiza:hover {
+    transform: scale(1.1);
+    transition: transform 0.5s ease-in-out;
+}
+
+.luiza h4 {
+    font-family: "League Spartan", sans-serif;
+    font-weight: 700;
+    font-size: 0.9em;
+    margin-top: -2%;
+}
+
+.catiuscia {
+    background-color: #88ab88;
+    border-radius: 20px;
+    margin: 40px;
+    padding: auto 70px;
+    margin: 30px auto;
+    height: 440px;
+    width: 20%;
+    margin-top: 10%;
+}
+
+.catiuscia img {
+    width: 40%;
+}
+
+.catiuscia p {
+    font-family: "League Spartan", sans-serif;
+    font-weight: 500;
+    font-size: 1em;
+    width: 250px;
+    margin-left: 10px;
+}
+
+.catiuscia:hover {
+    transform: scale(1.1);
+    transition: transform 0.5s ease-in-out;
+}
+
+.catiuscia h4 {
+    font-size: 0.9em;
+    font-family: "League Spartan", sans-serif;
+    font-weight: 800;
+}
+
+.gabriela {
+    background-color: #88ab88;
+    border-radius: 20px;
+    margin: 40px;
+    padding: auto 70px;
+    margin: 30px auto;
+    height: 440px;
+    width: 20%;
+    margin-top: 10%;
+}
+
+.gabriela img {
+    width: 40%;
+}
+
+.gabriela p {
+    font-family: "League Spartan", sans-serif;
+    font-size: 0.8em;
+    width: 260px;
+    margin-left: 2%;
+    font-weight: 600;
+    margin-top: -3%;
+}
+
+.gabriela:hover {
+    transform: scale(1.1);
+    transition: transform 0.5s ease-in-out;
+}
+
+.gabriela h4 {
+    font-size: 0.9em;
+    font-family: "League Spartan", sans-serif;
+    font-weight: 800;
+    margin-top: -3%;
+}
+
+
+.sued {
+    background-color: #89ab88;
+    border-radius: 40px;
+    width: 80%;
+    height: 370px;
+    margin-left: 98px;
+    padding: 10px;
+    box-shadow: -17px 17px 20px #000000,
+        17px 17px 32px #ffffff;
+}
+
+.sued h2 {
+    font-size: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sued img {
+    width: 9%;
+
+}
+
+.sued p {
+    font-family: "League Spartan", sans-serif;
+    font-weight: 600;
+    font-size: 0.9em;
+}
+
+.sued:hover {
+    transform: scale(1.1);
+    transition: transform 0.5s ease-in-out;
+}
+
+.sued .suedT {
+    font-size: 1em;
+    font-family: "League Spartan", sans-serif;
+    font-weight: 800;
+    padding: -20px;
+}
+
+#mulheres p::selection {
+    color: #54b86d;
+    background-color: #327a47b5;
+}
+
+#mulheres h3 {
+    font-size: 1.3em;
+    color: #000000;
+}
+
+/* ----------------------parte 5--------------------------- */
+
+#secao5 {
+    background-image: url(./fundos/Mulheres\ Fundo.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 1000px;
+}
+
+#secao5 h5 {
+    background-color: #170d33ce;
+    width: 60%;
+    margin-left: 20%;
+    border-radius: 15px;
+}
+
+
+#secao5 .section5 {
+    font-size: 55px;
+    text-align: center;
+    font-family: Catilde;
+    color: #9c65cf;
+    text-shadow: 1px 2px 3px #210750;
+}
+
+#secao5 h2 {
+    font-size: 25px;
+    color: #c6bae9;
+    border-radius: 15px;
+    padding: 4px;
+    font-family: Catilde;
+    padding-top: 10%;
+}
+
+.text {
+    width: 60%;
+    text-align: center;
+    margin-left: 20%;
+    font-family: "League Spartan", sans-serif;
+    font-size: 22px;
+    font-weight: 550;
+    color: #000000;
+}
+
+.carrossel5::selection {
+    color: #45186f;
+    background-color: #c189f5b5;
+}
+
+.carousel-item img {
+    border-radius: 15px;
+    object-fit: cover;
+}
+
+.carousel-item img:hover {
+    border-radius: 15px;
+}
+
+#carouselExampleCaptions {
+    top: 8px;
+    border-radius: 30px;
+    background: #5515d450;
+    box-shadow: -22px -22px 36px #3f109d52,
+        22px 22px 36px #6a1aff50;
+}
+
+.carousel-control-prev {
+    border-radius: 15px 0 0 15px;
+}
+
+.carousel-caption p {
+    background-color: #170d33ce;
+    color: #c6bae9;
+    font-size: 16px;
+    font-weight: 650;
+    border-radius: 15px;
+    padding: 5px;
+    width: 400px;
+    margin-left: -18%;
+    margin-bottom: -10%;
+    font-family: "League Spartan", sans-serif;
+
+}
+
+.carousel-control-prev:hover {
+    border-radius: 15px 0 0 15px;
+    margin: 0;
+}
+
+.carousel-control-next {
+    border-radius: 0 15px 15px 0;
+}
+
+.carousel-control-next:hover {
+    border-radius: 0 15px 15px 0;
+}
+
+#carouselExampleCaptions button:hover {
+    background-color: #b8acce56;
+}
+
+.carousel {
+    width: 31%;
+    margin: 0 35%;
+}
+
+.fa-rotate-270 {
+    font-size: 30px;
+    color: #000000;
+}
+
+.fa-rotate-270:hover {
+    color: #d3abf8;
+}
+
+.fa-rotate-90 {
+    font-size: 30px;
+    color: #000000;
+}
+
+.fa-rotate-90:hover {
+    color: #d3abf8;
+}
+
+#carouselExampleCaptions button {
+    font-size: 15px;
+    position: absolute;
+    background-color: #c18de6;
+    color: #c189f5;
+    font-weight: 620;
+
+}
+
+
+/* --------------------------parte6------------------------- */
+
+
+
+#cursos {
+    background-image: url(./fundos/Cursos\ Fundo.png);
+    background-size: 100% 100%;
+    height: 700px;
+    width: 100%;
+}
+
+#cursos h2 {
+    text-align: center;
+    font-size: 55px;
+    font-family: Catilde;
+    color: #9c65cf;
+    text-shadow: 1px 2px 3px #210750;
+    padding-top: 5%;
+}
+
+
+.pcursos {
+    color: #000000;
+    text-align: center;
+    font-size: 30px;
+    width: 80%;
+    margin-left: 10%;
+    font-family: "League Spartan", sans-serif;
+}
+
+.pcurso1 {
+    margin-top: -3%;
+    padding: 10px;
+    font-size: 18px;
+    font-family: "League Spartan", sans-serif;
+    font-weight: 700;
+    text-align: center;
+    width: 281px;
+    margin-left: -15%;
+}
+
+.pcurso2 {
+    font-family: "League Spartan", sans-serif;
+    padding-top: 10px;
+    font-size: 18.3px;
+    width: 250px;
+    margin-left: -7%;
+    font-weight: 700;
+
+}
+
+.pcurso3 {
+    font-weight: 700;
+    width: 250px;
+    margin-left: -7%;
+    margin-top: 6%;
+}
+
+.pcurso4 {
+    font-weight: 700;
+    width: 250px;
+    margin-left: -7%;
+    margin-top: 6%;
+}
+
+.curso {
+    text-align: center;
+    font-family: Catilde;
+    margin-top: -9%;
+    font-size: 20px;
+
+}
+
+#cursos .containers6 {
+    display: flex;
+    justify-content: space-around;
+    width: 98vw;
+}
+
+.curso1 {
+    border: 4px solid #000000;
+    padding: 25px;
+    width: 20%;
+    height: 320px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 7px 8px 7px #000000b2;
+    background-color: #ffffff;
+}
+
+.curso2 {
+    border: 4px solid #000000;
+    padding: 25px;
+    width: 20%;
+    height: 320px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 7px 8px 7px #000000b2;
+    background-color: #ffffff;
+}
+
+.curso3 {
+    border: 4px solid #000000;
+    padding: 25px;
+    border-radius: 20px;
+    width: 20%;
+    height: 320px;
+    text-align: center;
+    box-shadow: 7px 8px 7px #000000b2;
+    background-color: #ffffff;
+}
+
+.curso4 {
+    border: 4px solid #000000;
+    padding: 25px;
+    border-radius: 20px;
+    width: 20%;
+    height: 320px;
+    text-align: center;
+    box-shadow: 7px 8px 7px #000000b2;
+    background-color: #ffffff;
+}
+
+#cursos a {
+    background-color: #89ab88;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 3px 4px 3px black;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: "League Spartan", sans-serif;
+    font-size: 17px;
+    text-align: center;
+}
+
+#cursos a:hover {
+    color: #75377a;
+    background-color: #c273da81;
+}
+
+#cursos .logoc {
+    position: absolute;
+    width: 6%;
+    top: 4510px;
+    margin-left: 92%;
+    z-index: 1;
+}
+
+.pcurso1::selection {
+    color: #45186f;
+    background-color: #c189f5b5;
+}
+
+.pcurso2::selection {
+    color: #45186f;
+    background-color: #c189f5b5;
+}
+
+.pcurso3::selection {
+    color: #45186f;
+    background-color: #c189f5b5;
+}
+
+.pcurso4::selection {
+    color: #45186f;
+    background-color: #c189f5b5;
+}
+
+a::selection {
+    color: #45186f;
+    background-color: #c189f5b5;
+}
+
+span::selection {
+    color: #45186f;
+    background-color: #c189f5b5;
+}
+
+h3::selection {
+    color: #45186f;
+    background-color: #c189f5b5;
+}
+
+.logoc::selection {
+    background-color: #c189f5b5;
+}
+
+.text::selection {
+    color: #45186f;
+    background-color: #c189f5b5;
+}
+
+.pcursos::selection {
+    color: #45186f;
+    background-color: #c189f5b5;
+}
+
+img::selection {
+    color: #45186f;
+    background-color: #c189f5b5;
+}
+
+.textocarrossel::selection {
+    color: #45186f;
+    background-color: #c189f5b5;
+}
+
+h5::selection {
+    color: #45186f;
+    background-color: #c189f5b5;
+}
+
+/* Rodapé */
+.wave {
+
+    padding: 0;
+    margin-bottom: -1px;
+}
+
+footer {
+    height: 85vh;
+    background-color: #c084fc;
+}
+
+.footer {
+    background-color: #c084fc;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+
+
+}
+
+.devs {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+    margin-top: 5%;
+
+    font-family: Catilde;
+
+}
+
+.devs img {
+    height: 80px;
+    margin-top: 5%;
+    border-radius: 100%;
+
+}
+
+.secoes {
+    display: flex;
+    flex-direction: column;
+}
+
+.secoes ul li {
+    padding: 26px;
+    text-align: center;
+    list-style: none;
+}
+
+.secoes ul li a {
+    color: #000000;
+    font-family: "League Spartan", sans-serif;
+    font-size: 2em;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    transition: font-size 0.3s ease;
+}
+
+.secoes ul li a:hover {
+    color: #622d8e;
+    font-size: 2.8em;
+}
+
+
+
+
+.logo2 {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: 10%;
+    margin-top: 5%;
+}
+
+.logo2 h3 {
+    text-align: center;
+    font-family: Catilde;
+    color: #4103c6;
+
+}
+
+.secoes .instagram {
+
+    justify-content: center;
+    display: flex;
+    font-size: 2em;
+    transition: color 0.3s ease;
+    transition: font-size 0.3s ease;
+    justify-content: space-between;
+    color: #ffffff;
+}
+
+.secoes .instagram i {
+    font-size: 54px;
+    margin-left: 5%;
+
+}
+
+.secoes .instagram p {
+    color: #ffffff;
+}
+
+.instagram a {
+    text-decoration: none;
+}
+
+.instagram a:hover {
+    font-size: 1.5em;
+}
+
+footer .copy {
+    text-align: center;
+    background-color: #c084fc;
+    color: #ffffff;
+    margin-top: 5%
+}
+
+
+/* ---------MODO ESCURO SECAO 1--------- */
+
+.dark-mode #home {
+    background-image: url(./fundos/bgd1.png);
+}
+
+.dark-mode nav {
+    background-color: #442d7568;
+}
+
+.dark-mode nav ul li a {
+    color: #ffffff;
+    transition: color 0.3s ease;
+    transition: font-size 0.3s ease;
+}
+
+.dark-mode nav ul li a:hover {
+    color: #d096ff;
+    font-size: 32px;
+}
+
+.dark-mode #logo {
+    background-image: url(./icones/Logo__1_-removebg-preview.png);
+}
+
+.dark-mode #home h1 {
+    color: #430e76;
+    text-shadow: 1px 2px 3px #fff;
+}
+
+.dark-mode #home p {
+    color: #333;
+}
+
+/* ----------- MODO ESCURO SECAO 2------------ */
+
+.dark-mode #sectionS2 {
+    background-image: url(./fundos/bgd2.png);
+}
+
+.dark-mode #sectionS2 h3 {
+    color: #3a0b66;
+    text-shadow: 1px 2px 3px #fff;
+}
+
+.dark-mode #sectionS2 h2 {
+    color: #020c02;
+}
+
+.dark-mode .intro {
+    background-color: #486648;
+    color: #badbc1;
+    box-shadow: 0 9px 20px #473a27;
+}
+
+.dark-mode .missão {
+    background-color: #486648;
+    color: #badbc1;
+    box-shadow: 0 9px 20px #473a27;
+}
+
+.dark-mode .visão {
+    background-color: #486648;
+    color: #badbc1;
+    box-shadow: 0 9px 20px #473a27;
+}
+
+.dark-mode .valores {
+    background-color: #486648;
+    color: #badbc1;
+    box-shadow: 0 9px 20px #473a27;
+}
+
+.dark-mode .intro:hover {
+    transition: ease-in 0.4s;
+    background-color: #223a22;
+    color: #badbc1;
+}
+
+.dark-mode .missão:hover {
+    transition: ease-in 0.4s;
+    background-color: #223a22;
+    color: #badbc1;
+}
+
+.dark-mode .visão:hover {
+    transition: ease-in 0.4s;
+    background-color: #223a22;
+    color: #badbc1;
+}
+
+.dark-mode .valores:hover {
+    transition: ease-in 0.4s;
+    background-color: #223a22;
+    color: #badbc1;
+}
+
+
+/* ------------MODO ESCURO SECAO 3---------- */
+
+.dark-mode #tres {
+    background-image: url(./fundos/bgd3.png);
+}
+
+.dark-mode #tres h2 {
+    color: #3a0b66;
+    text-shadow: 1px 2px 3px #fff;
+}
+
+.dark-mode #tres .secao .caixa .contador-item {
+    background-color: #486648;
+}
+
+.dark-mode #tres .secao .caixa .contador-iitem {
+    background-color: #85a883;
+}
+
+/* ---------- MODO ESCURO SECAO 4----------- */
+
+.dark-mode #mulheres {
+    background-image: url(./fundos/bgd4.png);
+}
+
+.dark-mode #mulheres h2 {
+    color: #3a0b66;
+    text-shadow: 1px 2px 3px #fff;
+}
+
+.dark-mode #mulheres h3 {
+    color: #101a10;
+}
+
+.dark-mode .luiza {
+    background-color: #486648;
+    color: #badbc1;
+}
+
+.dark-mode .isadora {
+    background-color: #486648;
+    color: #badbc1;
+}
+
+.dark-mode .catiuscia {
+    background-color: #486648;
+    color: #badbc1;
+}
+
+.dark-mode .gabriela {
+    background-color: #486648;
+    color: #badbc1;
+}
+
+.dark-mode .sued {
+    background-color: #486648;
+    color: #badbc1;
+}
+
+.dark-mode .luiza:hover {
+    transition: ease-in 0.4s;
+    background-color: #223a22;
+    color: #badbc1;
+}
+
+.dark-mode .isadora:hover {
+    transition: ease-in 0.4s;
+    background-color: #223a22;
+    color: #badbc1;
+}
+
+.dark-mode .catiuscia:hover {
+    transition: ease-in 0.4s;
+    background-color: #223a22;
+    color: #badbc1;
+}
+
+.dark-mode .gabriela:hover {
+    transition: ease-in 0.4s;
+    background-color: #223a22;
+    color: #badbc1;
+}
+
+.dark-mode .sued:hover {
+    transition: ease-in 0.4s;
+    background-color: #223a22;
+    color: #badbc1;
+}
+
+
+/* ----------MODO ESCURO SECAO 5------------ */
+.dark-mode #secao5 {
+    background-image: url(./fundos/bgd5.png);
+}
+
+.dark-mode span {
+    color: #3a0b66;
+    text-shadow: 1px 2px 3px #fff;
+}
+
+.dark-mode .carousel-caption p {
+    color: #c189f5;
+    background-color: #10023a96;
+}
+
+.dark-mode h5 {
+    color: #c189f5;
+    background-color: #10023a96;
+}
+
+.dark-mode .text {
+    color: rgb(23, 2, 41);
+}
+
+.dark-mode #carouselExampleCaptions {
+    background: #21035ecc;
+    box-shadow: -22px -22px 36px #3f109dcc,
+        22px 22px 36px #6a1affe7;
+}
+
+.dark-mode #carouselExampleCaptions button:hover {
+    background-color: #21075069;
+}
+
+.dark-mode #carouselExampleCaptions button {
+    background-color: #21075069;
+}
+
+.dark-mode .fa-rotate-270 {
+    color: #0f0227;
+}
+
+.dark-mode .fa-rotate-90 {
+    color: #0f0227;
+}
+
+/* ---------- MODO ESCURO SECAO 6---------- */
+
+.dark-mode #cursos {
+    background-image: url(./fundos/bgd6.png);
+}
+
+.dark-mode .curso1 {
+    background-color: #170525be;
+    color: #af7aec;
+}
+
+.dark-mode .curso2 {
+    background-color: #170525be;
+    color: #af7aec;
+}
+
+.dark-mode .curso3 {
+    background-color: #170525be;
+    color: #af7aec;
+}
+
+.dark-mode .curso4 {
+    background-color: #170525be;
+    color: #af7aec;
+}
+
+.dark-mode .buttonC {
+    color: #210750;
+    background-color: #000000;
+}
+
+/* ----------- MODO ESCURO FOOTER--------- */
+
+.dark-mode .wave {
+    background-color: #9a67ff;
+}
+
+.dark-mode #footer .copy {
+    color: #ffffff;
+}
+
+.dark-mode #footer .instagram p {
+    color: #ffffff;
+}
+
+.dark-mode #footer .devs h3 {
+    color: #000000;
+}
+
+.dark-mode #footer .secoes li ul a {
+    color: #000000;
+}
+
+.dark-mode #footer .secoes li ul a:hover {
+    color: #622d8e;
+}
+
+/* -------- Responsividade -------- */
+
+@media (max-width: 768px) {
+    #home {
+        background-image: url(./fundos/1.png);
+    }
+
+    #sectionS2 {
+        background-image: url(./fundos/2.png);
+    }
+
+    #tres {
+        background-image: url(./fundos/3.png);
+
+    }
+
+    #mulheres {
+        background-image: url(./fundos/4.png);
+    }
+
+    #secao5 {
+        background-image: url(./fundos/5.png);
+    }
+
+    #cursos {
+        background-image: url(./fundos/6.png);
+    }
+
+    nav  ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    nav ul li a {
+        font-size: 25px;
+    }
+
+    #logo {
+        position: absolute;
+        right: 7%;
+    }
+
+    .modoescuro img {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+    #home h1 {
+        font-size: 1.5em;
+        margin-left: 3px;
+        padding-top: 225px;
+    }
+
+    #home p {
+        font-size: 0.7em;
+        width: 100%;
+        text-align: left;
+        padding-left: 1px;
+    }
+
+    #sectionS2 h3 {
+        font-size: 2em;
+        padding-top: 30px;
+    }
+
+    #misaoo {
+        flex-direction: column;
+    }
+
+    .intro {
+        width: 300px;
+        height: 250px;
+    }
+
+    .imagem {
+        display: none;
+    }
+
+    #sectionS2 p {
+        font-size: 16px;
+    }
+
+    .missão,
+    .visão,
+    .valores {
+        margin: 0;
+        padding: 0;
+        width: 350px;
+        margin-bottom: 10%;
+        margin-left: 5%;
+        padding: 10px;
+    }
+
+    #tres h2 {
+        font-size: 4em;
+        padding-top: 10px;
+    }
+
+    #tres .secao {
+
+        height: 600px;
+        position: absolute;
+        left: 0;
+        width: 100%;
+    }
+
+    #tres .secao h3 {
+        font-size: 2em;
+    }
+
+    #tres .secao .caixa {
+        margin: 0;
+        margin-left: 1px;
+        width: 100%;
+    }
+
+    #tres .secao .caixa .contador-item {
+        width: 300px;
+        margin: 0;
+        margin-right: 0;
+        height: 200px;
+    }
+
+    #tres .secao .caixa .contador-iitem {
+        width: 300px;
+        margin: 0;
+        margin-left: 5%;
+        height: 200px;
+    }
+
+    #tres .secao .caixa .contador-item h3,
+    #tres .secao .caixa .contador-iitem h3 {
+        font-size: 40px;
+    }
+
+    .contador-item p,
+    .contador-iitem p {
+        font-size: 20px;
+    }
+
+    
+    #mulheres {
+        height: 3100px;
+    }
+
+    #mulheres .container-mulheres {
+        flex-direction: column;
+        width: 90%;
+    }
+
+    .isadora,
+    .luiza,
+    .catiuscia,
+    .gabriela {
+        width: 100%;
+        margin: 20px;
+    }
+
+    .isadora p,
+    .luiza p,
+    .catiuscia p,
+    .gabriela p {
+
+        padding: 10px;
+
+    }
+
+    .isadora h4 {
+        margin-top: -18%;
+    }
+
+    .luiza p{
+        font-size: 12.8px;
+        width: 350px;
+    }
+
+    .catiuscia p{
+        width: 350px;
+        margin-left: -1px;
+    }
+
+    .gabriela p{
+        width: 350px;
+        font-size: 14px;
+    }
+
+    #mulheres .sued {
+        margin-left: 0;
+        width: 95%;
+        background-color: #89ab88;
+        height: 1000px;
+        margin: 3.5%;
+    }
+
+    #mulheres .sued p {
+        font-size: 1em;
+    }
+
+    .sued img {
+        width: 20%;
+    }
+
+    /* ------------------------------------------------ */
+    #secao5 {
+        height: 950px;
+    }
+
+    #secao5 h2 {
+        padding-top: 20%;
+    }
+
+    #secao5 h5 {
+        font-size: 100px;
+        z-index: 200;
+    }
+
+    .text {
+        font-size: 20px;
+        width: 90%;
+        margin: 0% 5%;
+
+    }
+
+    .carousel {
+        width: 90%;
+        margin: 0% 5%;
+
+    }
+
+
+
+    .carousel-item p {
+        background-color: rgb(43, 255, 0);
+        border: solid red;
+        font-size: 1px;
+    }
+
+
+
+    #cursos {
+        height: 1900px;
+    }
+
+    .pcursos {
+        font-size: 20px;
+    }
+
+    #cursos .containers6 {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .curso {
+        text-align: center;
+        font-family: Catilde;
+        font-size: 20px;
+
+    }
+
+    .curso1 {
+        width: 88%;
+        margin-bottom: 10%;
+        text-align: center;
+        padding: 40px 0px;
+        margin-left: 3%;
+        margin-top: 10%;
+    }
+
+    .curso2,
+    .curso3,
+    .curso4 {
+        width: 90%;
+        margin-left: 5%;
+        text-align: center;
+        padding: 30px;
+        margin-bottom: 10%;
+
+    }
+
+    .pcurso1,
+    .pcurso2,
+    .pcurso3,
+    .pcurso4 {
+        text-align: center;
+        margin-left: 10%;
+        padding: 4px 0;
+
+    }
+
+
+    #cursos .logoc {
+        position: absolute;
+        left: 300px;
+        top: 7595px;
+        width: 20%;
+        margin-left: 0;
+    }
+
+    .footer {
+        flex-direction: column-reverse;
+    }
+
+    footer {
+        height: 100%;
+    }
+
+    .secoes .instagram {
+        justify-content: center;
+
+    }
+.devs{
+    padding-left: 15%;
+    justify-content: center;
+}
+
+
+.logo2 {
+ 
+    width: 50%;
+    height: 10%;
+    margin-top: 5%;
+}
+
+/* ----------------------Modo escuro Responsivo-------------------------- */
+
+.dark-mode #home {
+    background-image: url(./fundos/1\ MD.png);
+}
+
+
+
+.dark-mode #tres {
+    background-image: url(./fundos/4\ MD.png);
+
+}
+
+
+
+}
+
